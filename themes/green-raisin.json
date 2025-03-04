@@ -1,0 +1,46 @@
+{
+    "name": "Green Raisin Palette",
+    "type": "dark",
+    "colors": {
+      "editor.background": "#2D4F4F",          
+      "editor.foreground": "#FFFFFF",          
+      "editor.selectionBackground": "#4A2F4A", 
+      "sideBar.background": "#2D4F4F",         
+      "statusBar.background": "#4A2F4A",       
+      "titleBar.activeBackground": "#4A2F4A",  
+      "tab.activeBackground": "#3A5A5A",      
+      "tab.inactiveBackground": "#2D4F4F"    
+    },
+    "tokenColors": [
+      {
+        "scope": "keyword",
+        "settings": {
+          "foreground": "#E6F5F2"           
+        }
+      },
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#FFD1A8"          
+        }
+      },
+      {
+        "scope": "number",
+        "settings": {
+          "foreground": "#B3D13A"         
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#C28FBF"            
+        }
+      },
+      {
+        "scope": "variable",
+        "settings": {
+          "foreground": "#FFFFFF"            
+        }
+      }
+    ]
+  }

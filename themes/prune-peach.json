@@ -1,0 +1,49 @@
+{
+    "name": "Prune Peach Theme",
+    "type": "dark",
+    "colors": {
+      "editor.background": "#231525",          
+      "editor.foreground": "#F0F0F0",          
+      "editor.selectionBackground": "#38252E", 
+      "editor.lineHighlightBackground": "#231525",
+      "editorCursor.foreground": "#663366",    
+      "activityBar.background": "#231525",     
+      "sideBar.background": "#231525",         
+      "statusBar.background": "#38252E",       
+      "titleBar.activeBackground": "#663366",  
+      "tab.activeBackground": "#593259",       
+      "tab.inactiveBackground": "#4A2F4A"      
+    },
+    "tokenColors": [
+      {
+        "scope": "keyword",
+        "settings": {
+          "foreground": "#E6F5F2"             
+        }
+      },
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#EEA977"             
+        }
+      },
+      {
+        "scope": "number",
+        "settings": {
+          "foreground": "#B3D13A"             
+        }
+      },
+      {
+        "scope": "comment",
+        "settings": {
+          "foreground": "#996699"             
+        }
+      },
+      {
+        "scope": "variable",
+        "settings": {
+          "foreground": "#F0F0F0"            
+        }
+      }
+    ]
+  }

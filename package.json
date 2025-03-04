@@ -1,0 +1,38 @@
+{
+    "name": "dried-fruits-themes-extension",
+    "displayName": "Green Raisin Extension",
+    "description": "A collection of dried-fruit-themed VS Code themes",
+    "version": "0.0.2",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/bleedingpixels/dried-fruits-themes-extension.git"
+    },
+    "engines": {
+      "vscode": "^1.60.0"
+    },
+    "contributes": {
+      "themes": [
+        {
+          "label": "Raisin Peach",
+          "uiTheme": "vs-dark",
+          "path": "./themes/raisin-peach.json"
+        },
+        {
+          "label": "Green Raisin",
+          "uiTheme": "vs-dark",
+          "path": "./themes/green-raisin.json"
+        },
+        {
+          "label": "Prune Peach",
+          "uiTheme": "vs-dark",
+          "path": "./themes/prune-peach.json"
+        }
+      ]
+    },
+    "files": [
+      "themes",
+      "package.json",
+      "README.md",
+      "LICENSE"
+    ]
+  }
